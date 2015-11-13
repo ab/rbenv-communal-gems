@@ -9,7 +9,7 @@
 require 'fileutils'
 
 versions_path = File.expand_path('~/.rbenv/versions')
-prefixes = %w[2.0.0-* 2.1.* 1.9.*]
+prefixes = %w[2.0.0-* 2.1.* 1.9.* 2.2.*]
 debug = ARGV.include?('-d') || ARGV.include?('--debug')
 puts "(running in simulation mode)" if debug
 
