@@ -78,6 +78,8 @@ sync_binary() {
 
     if [ -n "$debug" ]; then
         opts='-v'
+    else
+        opts=''
     fi
 
     if [ -n "$dry_run" ]; then
